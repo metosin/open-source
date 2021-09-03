@@ -5,13 +5,18 @@ Here are recommendations and ideas for making a useful and approachable open sou
 They're not hard-and-fast rules.
 Comments and feedback are welcome.
 
-## Triaging issues
-
-XXX(to be written)
-
 ## Reviewing pull requests
 
-XXX(to be written)
+When we receive pull requests (PRs), they must be reviewed and merged once they're ready.
+
+* **Review feedback must be actionable**.
+  The aim is to make the PR mergeable, or to close it if it's not appropriate for the project.
+* Sometimes when a PR needs just a small fix to be ready, it's easiest to fix it yourself. It's okay to do it.
+* A PR should be reviewed by the same maintainer from start to end. However, feel free to ask help if you need it!
+* Timely reviews keep the contribution process smooth.
+* Merging:
+  * Merge the PR with a merge commit (not squash or rebase). In GitHub, use the button "Merge pull request".
+  * Update the changelog afterwards.
 
 ## New project template
 
