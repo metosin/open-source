@@ -1,7 +1,7 @@
 # PROJECTNAME
 
 [![Build Status](https://github.com/metosin/PROJECTNAME/actions/workflows/clojure.yml/badge.svg)](https://github.com/metosin/PROJECTNAME/actions)
-[![Clojars Project](http://clojars.org/metosin/PROJECTNAME/latest-version.svg)](http://clojars.org/PROJECTNAME/ring-http-response)
+[![Clojars Project](http://clojars.org/metosin/PROJECTNAME/latest-version.svg)](http://clojars.org/metosin/PROJECTNAME)
 
 This library does X, Y and Z very fastly and goodly.
 Part of [Metosin Open Source](https://github.com/metosin/open-source).
