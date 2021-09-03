@@ -7,9 +7,7 @@ This repository documents the way we work with them.
 # Commercial support
 
 Need help with our projects and libraries?
-We provide support, training, performance optimization, and more. Contact us at XXX(address) for more information.
-
-XXX(instructions for telling us that you use our libraries; cf. [clj-kondo](https://github.com/clj-kondo/clj-kondo/issues/438))
+We provide support, training, performance optimization, and more. [Contact us for more information](https://www.metosin.fi/en/contact/)!
 
 # List of notable libraries
 
@@ -31,14 +29,6 @@ Here are some general guidelines:
 * Please file bug reports and feature proposals as GitHub issues
 * For small changes such as bug fixes or documentation changes, feel free to send a pull request
 * If you want to make a big change or implement a big new feature, please open an issue to discuss it first.
-
-## Security contact
-
-XXX(to be written)
-
-## Code of conduct
-
-XXX(to be written)
 
 # [For maintainers](./maintainers.md)
 
