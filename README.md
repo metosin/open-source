@@ -1,4 +1,4 @@
-<img width="100" src="https://raw.githubusercontent.com/metosin/media/master/metosin_grey_vertical.svg" alt="Metosin" align="right" />
+<img width="330" src="https://avatars.githubusercontent.com/u/1569418?s=400&u=c24a05df6aa918905cdde2480fbe4a5062a780ac&v=4" alt="Metosin" align="right" />
 
 At [Metosin](https://www.metosin.fi/),
 we have created a number of open source libraries and tools for Clojure.
