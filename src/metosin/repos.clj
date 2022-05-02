@@ -34,20 +34,33 @@
   (first all-repos))
 
 (def topic->stage
-  {"metosin-experimental" :experimental
-   "metosin-active-development" :active-development
-   "metosin-stable" :stable
-   "metosin-deprecated" :deprecated})
+  {"metosin-experimental" "experimental"
+   "metosin-active-development" "active-development"
+   "metosin-stable" "stable"
+   "metosin-deprecated" "deprecated"
+   "metosin-example" "example"
+   "training-materials" "training"
+   "example-project" "example"})
+
+(defn process-data [repos]
+  (->> repos
+       (remove :archived)
+       (remove :fork)
+       (map (fn [repo]
+              (let [stages (set (keep topic->stage (:topics repo)))]
+                (assoc repo :category (or (first stages) "unknown")))))
+       (sort-by (juxt :category :pushed_at))))
 
 (defn csv-export []
-  (doseq [{:keys [topics archived open_issues_count] :as repo} all-repos]
-    (let [stages (keep topic->stage topics)]
-      (println (str (:name repo) ","
-                    archived ","
-                    (if (seq stages)
-                      (str/join " " (map name stages))
-                      "unknown") ","
-                    open_issues_count)))))
+  (println "Name,Archived,Category,Open issues,Stars,Forks,Last push")
+  (doseq [{:keys [archived stargazers_count forks open_issues_count category pushed_at] :as repo} (process-data all-repos)]
+    (println (str (:name repo) ","
+                  archived ","
+                  category ","
+                  open_issues_count ","
+                  stargazers_count ","
+                  forks ","
+                  pushed_at))))
 
 (defn -main [& _]
   (csv-export))
