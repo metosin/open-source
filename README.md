@@ -32,11 +32,13 @@ Here are some general guidelines:
 
 # [For maintainers](./maintainers.md)
 
-# Project lifecycle model
+# [Project status model](./project-status.md)
 
-Our projects generally go through the following stages:
+We use a [project status model](./project-status.md) to track the maintenance status and maturity of our open source projects.
 
-* **Experimental**: we're trying this out; there are no guarantees of stability or future of the project.
-* **Under active development**: actively maintained and recommended; there may be upcoming breaking changes
-* **Stable:** actively maintained; new releases are expected to be backwards-compatible
-* **Deprecated:** not actively maintained nor recommended for new projects
+* [Active projects](https://github.com/topics/metosin-active)
+* [Stable projects](https://github.com/topics/metosin-stable)
+* [Inactive projects](https://github.com/topics/metosin-inactive)
+* [Experimental projects](https://github.com/topics/metosin-experimental)
+* [Deprecated projects](https://github.com/topics/metosin-deprecated)
+* [Example projects](https://github.com/topics/metosin-example)
