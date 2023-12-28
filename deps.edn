@@ -1,0 +1,2 @@
+{:deps {metosin/jsonista {:mvn/version "0.3.5"}}
+ :aliases {:csv-export {:main-opts ["-m" "metosin.repos"]}}}
