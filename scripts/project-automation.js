@@ -1,5 +1,6 @@
 const github =  require('@actions/github');
-const subDays = require('date-fns/subDays');
+//const subDays = require('date-fns/subDays');
+const { subDays } = require("date-fns");
 
 // read from secrets
 const GITHUB_TOKEN = process.env.GH_PROJECT_TOKEN;
