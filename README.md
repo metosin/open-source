@@ -7,7 +7,8 @@ This repository documents the way we work with them.
 # Commercial support
 
 Need help with our projects and libraries?
-We provide support, training, performance optimization, and more. [Contact us for more information](https://www.metosin.fi/en/contact/)!
+We provide support, training, performance optimization, and more.
+[Read more here](https://www.metosin.fi/en/open-source-support)!
 
 # List of notable libraries
 
