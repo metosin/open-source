@@ -16,7 +16,12 @@ const config = {
     datesBack: 7
 };
 
-const repos = ["malli", "reitit"];
+const repos = [
+  // active:
+  "malli", "reitit",
+  // stable:
+  "compojure-api", "muuntaja", "jsonista", "ring-swagger", "ring-http-response", "schema-tools",
+  "ring-swagger-ui", "reagent-dev-tools"];
 
 const octokit = github.getOctokit(GITHUB_TOKEN);
 
