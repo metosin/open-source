@@ -14,5 +14,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - run: |
-          npm install @actions/github date-fns
-          node scripts/project-automation.js
+          cd scripts
+          npm ci
+          node project-automation.js
