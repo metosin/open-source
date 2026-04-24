@@ -13,7 +13,7 @@ const config = {
     owner:"metosin",
     ownerType: "organization",
     projectNumber: 4,
-    datesBack: 7
+    datesBack: 31
 };
 
 const repos = [
